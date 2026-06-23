@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-06-23T09:07:56.111886+00:00",
+  "summary": {
+    "adversarial": {
+      "passed": 10,
+      "total": 10,
+      "rate": 100
+    },
+    "edge": {
+      "passed": 5,
+      "total": 5,
+      "rate": 100
+    },
+    "tool_failure": {
+      "passed": 0,
+      "total": 1,
+      "rate": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "adv01",
+      "category": "adversarial",
+      "passed": true,
+      "status": "awaiting_human_approval"
+    },
+    {
+      "id": "adv02",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv03",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv04",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv05",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv06",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv07",
+      "category": "adversarial",
+      "passed": true,
+      "status": "awaiting_human_approval"
+    },
+    {
+      "id": "adv08",
+      "category": "adversarial",
+      "passed": true,
+      "status": "awaiting_human_approval"
+    },
+    {
+      "id": "adv09",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "adv10",
+      "category": "adversarial",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "edge01",
+      "category": "edge",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "edge02",
+      "category": "edge",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "edge03",
+      "category": "edge",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "edge04",
+      "category": "edge",
+      "passed": true,
+      "status": "awaiting_human_approval"
+    },
+    {
+      "id": "edge05",
+      "category": "edge",
+      "passed": true,
+      "status": "rejected_input"
+    },
+    {
+      "id": "toolfail01",
+      "category": "tool_failure",
+      "passed": false,
+      "status": "UNHANDLED:TimeoutError"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-06-23T09:07:56.254475+00:00",
+  "runs": 15,
+  "trace_complete_pct": 100,
+  "explanation_quality": {
+    "clear": 15,
+    "partial": 0,
+    "opaque": 0
+  },
+  "gdpr_art22_supportable_pct": 100,
+  "samples": [
+    {
+      "scenario": "biometrics_user_alex.json",
+      "status": "awaiting_human_approval",
+      "reasoning": "3 days above threshold with HRV -10.5% vs baseline (confidence 0.77); brief drafted and matched to Dr. Maren Holt, awaiting human approval.",
+      "grade": "clear"
+    },
+    {
+      "scenario": "biometrics_user_alex.json",
+      "status": "awaiting_human_approval",
+      "reasoning": "3 days above threshold with HRV -10.5% vs baseline (confidence 0.77); brief drafted and matched to Dr. Maren Holt, awaiting human approval.",
+      "grade": "clear"
+    },
+    {
+      "scenario": "biometrics_user_alex.json",
+      "status": "awaiting_human_approval",
+      "reasoning": "3 days above threshold with HRV -10.5% vs baseline (confidence 0.77); brief drafted and matched to Dr. Maren Holt, awaiting human approval.",
+      "grade": "clear"
+    }
+  ]
+}

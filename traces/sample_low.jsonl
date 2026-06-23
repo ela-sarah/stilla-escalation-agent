@@ -1,0 +1,7 @@
+{"ts": "2026-06-23T09:08:07.250492+00:00", "run_id": "run-20260623T090807-f7935a", "event": "run_start", "biometrics": "data/biometrics_low.json", "mode": "mock", "supervisor": "claude-sonnet-4-6", "worker": "claude-haiku-4-5"}
+{"ts": "2026-06-23T09:08:07.250656+00:00", "run_id": "run-20260623T090807-f7935a", "event": "guardrail", "guardrail": "global_kill_switch", "triggered": false, "detail": "enabled"}
+{"ts": "2026-06-23T09:08:07.250767+00:00", "run_id": "run-20260623T090807-f7935a", "event": "guardrail", "guardrail": "input_validation", "triggered": false, "detail": "ok"}
+{"ts": "2026-06-23T09:08:07.250805+00:00", "run_id": "run-20260623T090807-f7935a", "event": "guardrail", "guardrail": "crisis_kill_switch", "triggered": false, "detail": "no crisis indicators"}
+{"ts": "2026-06-23T09:08:07.250938+00:00", "run_id": "run-20260623T090807-f7935a", "event": "tool_call", "tool": "get_trend_summary", "args": {"path": "data/biometrics_low.json"}, "result": "days_above=0 hrv%=6.2 conf=0.51", "latency_ms": 0.1}
+{"ts": "2026-06-23T09:08:07.250959+00:00", "run_id": "run-20260623T090807-f7935a", "event": "decision", "status": "no_escalation", "escalate": false, "confidence": 0.51, "reasoning": "Trend below escalation threshold."}
+{"ts": "2026-06-23T09:08:07.250978+00:00", "run_id": "run-20260623T090807-f7935a", "event": "run_end", "status": "no_escalation", "escalate": false, "tokens": 0, "trace": "traces/run-20260623T090807-f7935a.jsonl"}

@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-06-23T09:07:56.248716+00:00",
+  "grid_gCO2eq_per_kWh": 60,
+  "mau": 50000,
+  "runs_per_user_per_month": 4,
+  "measured_tokens_per_run": 134,
+  "table": [
+    {
+      "model": "frontier_sonnet",
+      "tokens_per_run": 134,
+      "kWh_per_run": 0.000402,
+      "gCO2eq_per_run": 0.02412,
+      "monthly_kgCO2eq_at_MAU": 4.8
+    },
+    {
+      "model": "worker_haiku",
+      "tokens_per_run": 134,
+      "kWh_per_run": 0.000134,
+      "gCO2eq_per_run": 0.00804,
+      "monthly_kgCO2eq_at_MAU": 1.6
+    },
+    {
+      "model": "slm_on_device",
+      "tokens_per_run": 134,
+      "kWh_per_run": 2.68e-05,
+      "gCO2eq_per_run": 0.00161,
+      "monthly_kgCO2eq_at_MAU": 0.3
+    }
+  ],
+  "slm_feasibility": "The draft step is templated and low-variance, so a distilled on-device SLM is feasible and cuts per-run CO2 ~5x vs Haiku and ~15x vs Sonnet, trading a small amount of narrative fluency we accept for a non-diagnostic note."
+}

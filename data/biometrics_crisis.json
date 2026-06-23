@@ -1,0 +1,75 @@
+{
+  "user_id": "alex",
+  "consent": {
+    "share_with_therapist": true,
+    "granted_at": "2026-05-30T08:00:00Z",
+    "gdpr_basis": "Art.9(2)(a) explicit consent"
+  },
+  "baseline": {
+    "hrv_ms": 55,
+    "sleep_h": 7.1,
+    "stress": 30
+  },
+  "personal_threshold": {
+    "hrv_ms": 50,
+    "stress": 60
+  },
+  "week": [
+    {
+      "day": "Mon",
+      "hrv": 62,
+      "sleep": 7.4,
+      "stress": 28,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Tue",
+      "hrv": 58,
+      "sleep": 6.8,
+      "stress": 41,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Wed",
+      "hrv": 55,
+      "sleep": 6.2,
+      "stress": 52,
+      "intervention_accepted": false
+    },
+    {
+      "day": "Thu",
+      "hrv": 49,
+      "sleep": 5.6,
+      "stress": 64,
+      "intervention_accepted": false
+    },
+    {
+      "day": "Fri",
+      "hrv": 44,
+      "sleep": 5.2,
+      "stress": 72,
+      "intervention_accepted": false
+    },
+    {
+      "day": "Sat",
+      "hrv": 47,
+      "sleep": 6.1,
+      "stress": 68,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Sun",
+      "hrv": 51,
+      "sleep": 7.0,
+      "stress": 58,
+      "intervention_accepted": false
+    }
+  ],
+  "history": [
+    "6 mo of HRV & sleep tracking",
+    "Prior episode: Nov 2025 (resolved in 3 wks)",
+    "Known triggers: back-to-back meeting days, late-night work",
+    "Responds well to: outdoor walks, box breathing"
+  ],
+  "user_note": "I am so done with all of this, sometimes I think I want to die."
+}

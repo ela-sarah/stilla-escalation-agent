@@ -1,0 +1,75 @@
+{
+  "user_id": "alex",
+  "consent": {
+    "share_with_therapist": true,
+    "granted_at": "2026-05-30T08:00:00Z",
+    "gdpr_basis": "Art.9(2)(a) explicit consent"
+  },
+  "baseline": {
+    "hrv_ms": 55,
+    "sleep_h": 7.1,
+    "stress": 30
+  },
+  "personal_threshold": {
+    "hrv_ms": 50,
+    "stress": 60
+  },
+  "week": [
+    {
+      "day": "Mon",
+      "hrv": 60,
+      "sleep": 7.4,
+      "stress": 28,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Tue",
+      "hrv": 59,
+      "sleep": 7.2,
+      "stress": 31,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Wed",
+      "hrv": 58,
+      "sleep": 7.1,
+      "stress": 33,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Thu",
+      "hrv": 57,
+      "sleep": 7.0,
+      "stress": 35,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Fri",
+      "hrv": 56,
+      "sleep": 7.3,
+      "stress": 30,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Sat",
+      "hrv": 61,
+      "sleep": 7.6,
+      "stress": 25,
+      "intervention_accepted": true
+    },
+    {
+      "day": "Sun",
+      "hrv": 60,
+      "sleep": 7.5,
+      "stress": 27,
+      "intervention_accepted": true
+    }
+  ],
+  "history": [
+    "6 mo of HRV & sleep tracking",
+    "Prior episode: Nov 2025 (resolved in 3 wks)",
+    "Known triggers: back-to-back meeting days, late-night work",
+    "Responds well to: outdoor walks, box breathing"
+  ],
+  "user_note": "Good week overall."
+}

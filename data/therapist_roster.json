@@ -1,0 +1,31 @@
+{
+  "therapists": [
+    {
+      "id": "t1",
+      "name": "Dr. Maren Holt",
+      "title": "Licensed Clinical Psychologist",
+      "modality": "CBT · Burnout",
+      "specialties": ["burnout", "tech_professionals", "high_pressure"],
+      "next_slot": "Today, 18:30",
+      "languages": ["en", "de"]
+    },
+    {
+      "id": "t2",
+      "name": "Ravi Banerjee, LMFT",
+      "title": "Therapist · Stress & sleep",
+      "modality": "ACT · Mindfulness",
+      "specialties": ["sleep", "hrv_coupled", "stress"],
+      "next_slot": "Tomorrow, 09:00",
+      "languages": ["en", "fr"]
+    },
+    {
+      "id": "t3",
+      "name": "Dr. Camille Laurent",
+      "title": "Psychologue clinicienne",
+      "modality": "TCC · Burnout",
+      "specialties": ["burnout", "stress", "students"],
+      "next_slot": "Tomorrow, 14:00",
+      "languages": ["fr", "en"]
+    }
+  ]
+}

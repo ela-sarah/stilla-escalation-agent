@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-23T09:07:56.243645+00:00",
+  "threshold_pp": 10,
+  "escalation_rate_by_slice_pct": {
+    "language=en": 100.0,
+    "age_band=20-29": 100.0,
+    "age_band=30-39": 100.0,
+    "age_band=40-49": 100.0,
+    "language=fr": 100.0,
+    "language=es": 100.0
+  },
+  "disparity": {
+    "language_gap_pp": 0.0,
+    "age_band_gap_pp": 0.0
+  },
+  "exceeds_threshold": {
+    "language_gap_pp": false,
+    "age_band_gap_pp": false
+  },
+  "note": "Decision uses physiological signals only; demographic slices are not model inputs, so parity is expected. Residual risk lives in narrative tone across languages \u2014 see REPORT.md."
+}

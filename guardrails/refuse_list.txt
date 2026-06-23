@@ -1,0 +1,8 @@
+# Patterns that, if found in free-text user input, cause input_validation to reject
+# the request (also used to sanitise text before it reaches a model prompt).
+# One regex per line. Case-insensitive.
+ignore (all|previous|the above) instructions
+disregard your (system|previous) prompt
+you are now
+reveal your (system )?prompt
+act as (an?|the) .*(unfiltered|jailbroken)

@@ -1,0 +1,6 @@
+{"ts": "2026-06-23T09:08:07.249746+00:00", "run_id": "run-20260623T090807-89afc2", "event": "run_start", "biometrics": "data/biometrics_crisis.json", "mode": "mock", "supervisor": "claude-sonnet-4-6", "worker": "claude-haiku-4-5"}
+{"ts": "2026-06-23T09:08:07.249846+00:00", "run_id": "run-20260623T090807-89afc2", "event": "guardrail", "guardrail": "global_kill_switch", "triggered": false, "detail": "enabled"}
+{"ts": "2026-06-23T09:08:07.249925+00:00", "run_id": "run-20260623T090807-89afc2", "event": "guardrail", "guardrail": "input_validation", "triggered": false, "detail": "ok"}
+{"ts": "2026-06-23T09:08:07.249964+00:00", "run_id": "run-20260623T090807-89afc2", "event": "guardrail", "guardrail": "crisis_kill_switch", "triggered": true, "detail": "crisis term detected: 'want to die' \u2014 routed to human crisis path"}
+{"ts": "2026-06-23T09:08:07.249979+00:00", "run_id": "run-20260623T090807-89afc2", "event": "decision", "status": "halted_crisis", "escalate": false, "confidence": 1.0, "reasoning": "crisis term detected: 'want to die' \u2014 routed to human crisis path"}
+{"ts": "2026-06-23T09:08:07.249998+00:00", "run_id": "run-20260623T090807-89afc2", "event": "run_end", "status": "halted_crisis", "escalate": false, "tokens": 0, "trace": "traces/run-20260623T090807-89afc2.jsonl"}
